@@ -1,5 +1,7 @@
 # node-grok
 
+Regular expression template library inspired by logstash grok filter module, with a patch. (Upgrade oniguruma to fix security vulnerabilities and allow usage with newer versions of node) cloned from https://github.com/sreuter/node-grok/tree/patch-1 to make it work with nodejs 12 version
+
 This library is inspired by logstash grok filter but it's not a port of it.
 
 More details about usage and implementation here https://memz.co/parsing-log-files-node-js-regex-grok/
@@ -7,7 +9,7 @@ More details about usage and implementation here https://memz.co/parsing-log-fil
 This is a templating library that helps reusing existing regular expressions and constructing new, more complex one. The primary goal was to help parsing and transforming plain text logs into JSON objects (one line => one object) based on provided template. 
 
 ## Install
-Install locally: `npm install node-grok`.
+Install locally: `npm install node-grok-v2`.
 
 ## Quick start
 Following simple snippet
