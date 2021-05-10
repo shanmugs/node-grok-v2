@@ -1,0 +1,27 @@
+{
+  "name": "node-grok-v2",
+  "version": "3.0.0",
+  "description": "Regular expression template library inspired by logstash grok filter module, with a patch. (Upgrade oniguruma to fix security vulnerabilities and allow usage with newer versions of node) cloned from https://github.com/sreuter/node-grok/tree/patch-1 to make it work with nodejs 12 version",
+  "repository": "https://github.com/shamugs/node-grok-v2.git",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha ./lib/test.js"
+  },
+  "keywords": [
+    "regex",
+    "grok",
+    "logstash"
+  ],
+  "author": "sathish",
+  "license": "ISC",
+  "dependencies": {
+    "async": "1.5.2",
+    "collections": "3.0.0",
+    "oniguruma": "7.2.1"
+  },
+  "devDependencies": {
+    "chai": "3.2.0",
+    "mocha": "2.2.5"
+  }
+}
