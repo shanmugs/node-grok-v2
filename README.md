@@ -1,4 +1,4 @@
-# node-grok
+# node-grok-v2
 
 Regular expression template library inspired by logstash grok filter module, with a patch. (Upgrade oniguruma to fix security vulnerabilities and allow usage with newer versions of node) cloned from https://github.com/sreuter/node-grok/tree/patch-1 to make it work with nodejs 12 version
 
